@@ -1,0 +1,82 @@
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #646877 !important; /*!important asegura que este color aparezca en vez del estilo que le pone bootstrap por defecto */
+    padding: 0 30px;
+}
+
+/* Estilo para el título */
+.navbar h1 {
+    color: #f2f2f2;
+    margin: 0;
+}
+
+/* Estilo para los enlaces */
+.navbar-nav .nav-link {
+    color: #f2f2f2 !important; 
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Estilo para el campo de búsqueda en tamaño LG */
+.search-input-lg {
+    width: 250px;
+    margin-left: auto;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Estilo para el campo de búsqueda en tamaño MD y SM */
+.search-input {
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el botón del menú desplegable */
+.navbar-toggler {
+    background-color: #646877; 
+}
+
+/* Estilo para el menú desplegable */
+.navbar-collapse {
+    background-color: #646877 !important; 
+}
+
+/* Estilo para los elementos del menú desplegable */
+.dropdown-menu {
+    background-color: #646877 !important; 
+    border-color: transparent; /* Aca se elimina el borde predeterminado de Bootstrap */
+}
+
+/* Estilo para los botones en el menú desplegable */
+.dropdown-item {
+    color: #f2f2f2 !important; 
+}
+
+/* Ocultar la columna en tamaño MD y SM */
+.left-column {
+    display: none;
+}
+
+/* Mostrar la columna en tamaño LG */
+@media (min-width: 992px) {
+    .left-column {
+        display: block;
+    }
+
+    .search-input-lg {
+        display: block;
+    }
+}
+
+.contenido p {
+    text-align: justify;
+    line-height: 1.8; 
+    margin-bottom: 20px; 
+}
+
+.carousel-item p {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #646877;
+}

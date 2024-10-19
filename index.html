@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sitio web responsive</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <h1>Nutrición para mascotas</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item d-lg-none">
+                    <input class="form-control search-input" type="text" placeholder="Buscar">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Comida">Comida</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Suplementos">Suplementos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Juguetes">Juguetes</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Opciones
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <button type="button" class="dropdown-item">Nuestra tienda</button>
+                        <button type="button" class="dropdown-item">Más consejos</button>
+                        <button type="button" class="dropdown-item">Gatos</button>
+                        <button type="button" class="dropdown-item">Ropa</button>
+                    </div>
+                </li>
+            </ul>
+            <input class="form-control ml-lg-auto search-input-lg d-none d-lg-block" type="text" placeholder="Search">
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col-md-3 d-none d-lg-block left-column">
+                <div class="list-group">
+                    <button type="button" class="list-group-item list-group-item-action">Nuestra tienda</button>
+                    <button type="button" class="list-group-item list-group-item-action">Más consejos</button>
+                    <button type="button" class="list-group-item list-group-item-action">Gatos</button>
+                    <button type="button" class="list-group-item list-group-item-action">Ropa</button>
+                </div>
+            </div>
+            <div class="col-md-9 contenido">
+                <h2>¿Cómo crear una dieta equilibrada para tu perro?</h2>
+                <div class="text-center mt-4">
+                    <div id="textCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p>Una buena hidratación es clave para la salud de tu perro.</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p>Las porciones controladas ayudan a prevenir la obesidad.</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p>Una dieta balanceada mejora la energía y vitalidad de tu mascota.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <p>
+                    Una nutrición adecuada es esencial para mantener la salud de tu mascota y prepararla para enfrentar las
+                    actividades cotidianas. Entre otras cosas, los perros requieren:
+                    <br><br>
+                    Hidratación suficiente <br>
+                    Se sugiere que consuman 60 mililitros de agua por cada kilogramo de su peso. Si tu perro
+                    pesa alrededor de dieciséis kilogramos, debería beber un poco más de un litro de agua al día. Esta proporción se
+                    incrementa en cachorros, hembras lactantes, perros con alta actividad o en climas cálidos.
+                    <br><br>
+                    Alimentación balanceada <br> 
+                    La dieta ideal debe incluir una combinación de proteínas, grasas, carbohidratos,
+                    vitaminas y minerales en las cantidades apropiadas para satisfacer las necesidades del perro según su raza,
+                    tamaño y etapa de vida.
+                    <br><br>
+                    Porciones controladas<br> 
+                     Medir y pesar la comida es una forma eficaz de cuidar la salud de tu mascota, ayudando a
+                    prevenir la obesidad y otros problemas.
+                    <br><br>
+                    Hasta los cuatro meses de edad, los cachorros tienen un metabolismo más rápido y un gasto energético más alto.
+                    Durante esta etapa, se recomienda que ingieran aproximadamente el 10 % de su peso en alimento. A partir de los
+                    cuatro meses, el metabolismo comienza a disminuir, lo que reduce el gasto calórico. Por lo tanto, la ingesta
+                    debería ajustarse al 8 %. Al llegar a los doce meses, el perro habrá alcanzado la adultez y la cantidad de
+                    alimento debería ser del 3 % de su peso en kilogramos. El nivel de actividad también es un factor importante,
+                    especialmente en perros adultos. Aquellos más activos pueden consumir entre el 3 % y el 4 % de su peso en
+                    alimento, mientras que los más sedentarios deberían ingerir una cantidad menor (cerca del 2 %).
+                    <br><br>
+                    Transiciones adecuadas<br> 
+                     Las necesidades calóricas y nutricionales de los perros cambian con su desarrollo. Por
+                    ejemplo, las hembras gestantes o lactantes requieren un mayor aporte calórico. Todos los aspectos deben
+                    considerarse al determinar cuándo realizar ajustes en la dieta.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
